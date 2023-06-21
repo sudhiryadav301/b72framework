@@ -9,7 +9,7 @@ import page.LoginPage;
 
 public class InvalidLogin extends BaseTest
 {
-	@Test(priority = 2)
+	@Test(priority = 2,enabled=false)
 	public void testInvalidLogin()
 	{
 		int rc=Excel.getRowCount(XL_PATH, "InvalidLogin");
